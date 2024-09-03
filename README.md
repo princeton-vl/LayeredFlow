@@ -2,9 +2,7 @@
 
 We introduce **LayeredFlow**, a real world benchmark with multi-layer annotations for optical flow of non-Lambertian objects, featuring 150k optical flow and stereo pairs across 185 diverse scenes with 360 unique objects.
 
-LayeredFlow enables a new task called multi-layer optical flow. We provide a large-scale densely-annotated synthetic dataset of 60k images from 30 scenes for training data.
-
-Training on our synthetic dataset supports model to predict multi-layer optical flow, while fine-tuning existing optical flow methods on the dataset boosts their performance on non-Lambertian objects without hurting the performance on diffuse objects. 
+LayeredFlow enables a new task called multi-layer optical flow. We also offer a large-scale, densely-annotated synthetic dataset with 60k images from 30 scenes for training. Fine-tuning on this dataset enhances the performance of existing optical flow methods on non-Lambertian objects.
 
 If you find LayeredFlow useful for your work, please consider citing our academic paper:
 
