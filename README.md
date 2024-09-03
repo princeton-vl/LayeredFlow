@@ -30,7 +30,7 @@ conda activate layeredflow
 
 
 ## LayeredFlow Benchmark
-<img src="images/benchmark_gallery.jpg" width='1000'>
+<img src="imgs/benchmark_gallery.jpg" width='1000'>
 
 ### Download
 Download the validation set (images + ground-truth) and test set (images) [here](https://drive.google.com/file/d/1EEFp7AE8ZX75ADztP74Mx7VZ6MOymneN/view?usp=sharing).
@@ -86,7 +86,7 @@ python3 modify_submission.py --id submission_id --email your_email --anonymous F
 
 
 ## Synthetic Data Generation
-<img scr="images/synthetic_gallery.jpg" width='1000'>
+<img scr="imgs/synthetic_gallery.jpg" width='1000'>
 
 ### Set up Blender
 To generate multiple layer ground truth from blender, you will need to build customized blender.
