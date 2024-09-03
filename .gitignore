@@ -1,0 +1,5 @@
+multiple-layer-ground-truth.patch
+MultiRAFT/checkpoints/
+RAFT/checkpoints/
+**/__pycache__/
+*.pyc
