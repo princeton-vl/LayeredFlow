@@ -12,7 +12,7 @@ If you find LayeredFlow useful for your work, please consider citing our academi
     </a>
 </h3>
 <p align="center">
-    <a href="https://hermerawen.github.io/">Hongyu Wen</a>, 
+    <a href="https://hermera.github.io/">Hongyu Wen</a>, 
     <a href="">Erich Liang</a>, 
     <a href="http://www.cs.princeton.edu/~jiadeng">Jia Deng</a><br>
 </p>
@@ -86,7 +86,7 @@ python3 modify_submission.py --id submission_id --email your_email --anonymous F
 
 
 ## Synthetic Data Generation
-<img scr="imgs/synthetic_gallery.jpg" width='1000'>
+<img src="imgs/synthetic_gallery.jpg" width='1000'>
 
 ### Set up Blender
 To generate multiple layer ground truth from blender, you will need to build customized blender.
