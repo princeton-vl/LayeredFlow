@@ -1,8 +1,10 @@
 # [ECCV24] LayeredFlow Benchmark
 
-We introduce **LayeredFlow**, a real world benchmark containing multi-layer ground truth annotation for optical flow of non-Lambertian objects. Compared to previous benchmarks, our benchmark exhibits greater scene and object diversity, with 150k high quality optical flow and stereo pairs taken over 185 indoor and outdoor scenes and 360 unique objects. 
+We introduce **LayeredFlow**, a real world benchmark with multi-layer annotations for optical flow of non-Lambertian objects, featuring 150k optical flow and stereo pairs across 185 diverse scenes with 360 unique objects.
 
-Using LayeredFlow as evaluation data, we propose a new task called multi-layer optical flow. To provide training data for this task, we introduce a large-scale densely-annotated synthetic dataset containing 60k images within 30 scenes tailored for non-Lambertian objects. Training on our synthetic dataset enables model to predict multi-layer optical flow, while fine-tuning existing optical flow methods on the dataset notably boosts their performance on non-Lambertian objects without compromising the performance on diffuse objects. 
+LayeredFlow enables a new task called multi-layer optical flow. We provide a large-scale densely-annotated synthetic dataset of 60k images from 30 scenes for training data.
+
+Training on our synthetic dataset supports model to predict multi-layer optical flow, while fine-tuning existing optical flow methods on the dataset boosts their performance on non-Lambertian objects without hurting the performance on diffuse objects. 
 
 If you find LayeredFlow useful for your work, please consider citing our academic paper:
 
