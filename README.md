@@ -18,14 +18,11 @@ If you find LayeredFlow useful for your work, please consider citing our academi
 </p>
 
 ```
-@misc{wen2024layeredflowrealworldbenchmarknonlambertian,
-      title={LayeredFlow: A Real-World Benchmark for Non-Lambertian Multi-Layer Optical Flow}, 
-      author={Hongyu Wen and Erich Liang and Jia Deng},
-      year={2024},
-      eprint={2409.05688},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.05688}, 
+@article{wen2024layeredflow,
+    title={LayeredFlow: A Real-World Benchmark for Non-Lambertian Multi-Layer Optical Flow}, 
+    author={Hongyu Wen and Erich Liang and Jia Deng},
+    journal={arXiv preprint arXiv:2409.05688},
+    year={2024},    
 }
 ```
 
