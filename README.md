@@ -65,7 +65,7 @@ python3 evaluate.py --checkpoint MultiRAFT_S+L.pth --dataset layeredflow --mixed
 ```
 
 ### Evaluation on Test Set
-To evaluate your model on the test set and compare your results with the baseline, you need to submit your flow predictions to the [evaluation server](layeredflow.cs.princeton.edu).
+To evaluate your model on the test set and compare your results with the baseline, you need to submit your flow predictions to the [evaluation server](https://layeredflow.cs.princeton.edu).
 
 Navigate to the RAFT directory and execute the following command to create your submission. A folder named "layeredflow_submission" will be created.
 ```
