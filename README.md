@@ -7,7 +7,7 @@ LayeredFlow enables a new task called multi-layer optical flow. We also offer a 
 If you find LayeredFlow useful for your work, please consider citing our academic paper:
 
 <h3 align="center">
-    <a href="">
+    <a href="https://arxiv.org/abs/2409.05688">
         LayeredFlow: A Real-World Benchmark for Non-Lambertian Multi-Layer Optical Flow
     </a>
 </h3>
@@ -18,7 +18,15 @@ If you find LayeredFlow useful for your work, please consider citing our academi
 </p>
 
 ```
-PLACEHOLDER
+@misc{wen2024layeredflowrealworldbenchmarknonlambertian,
+      title={LayeredFlow: A Real-World Benchmark for Non-Lambertian Multi-Layer Optical Flow}, 
+      author={Hongyu Wen and Erich Liang and Jia Deng},
+      year={2024},
+      eprint={2409.05688},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.05688}, 
+}
 ```
 
 ## Installation
