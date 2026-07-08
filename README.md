@@ -94,11 +94,11 @@ python3 modify_submission.py --id submission_id --email your_email --anonymous F
 <img src="imgs/synthetic_gallery.jpg" width='1000'>
 
 ### Pre-rendered Dataset
-You can find the pre-rendered images [here](https://drive.google.com/drive/folders/17WFb_k5PNXb6C0b4I2Nwt1uzkQs3ctuW?usp=sharing).
+You can find the extracted synthetic ground-truth dataset [here](https://huggingface.co/datasets/princeton-vl/LayeredFlow-Syn).
 
-To unzip the dataset, download all the files then run:
+The Hugging Face dataset is stored as Parquet files with the layout `data/<scene>/<sample>.parquet`. To download it, run:
 ```
-cat *.tar.gz.* | tar xvfz -
+hf download princeton-vl/LayeredFlow-Syn --repo-type dataset --local-dir LayeredFlow-Syn
 ```
 
 ### Set up Blender
